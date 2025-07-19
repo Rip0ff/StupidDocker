@@ -2,8 +2,8 @@ x-common:
     database: &db-environment
         # Do not remove the "&db-password" from the end of the line below, it is important
         # for Panel functionality.
-        MYSQL_PASSWORD: &db-password 'CHANGE_ME'
-        MYSQL_ROOT_PASSWORD: 'CHANGE_ME_TOO'
+        MYSQL_PASSWORD: &db-password '1289'
+        MYSQL_ROOT_PASSWORD: '1289'
     panel: &panel-environment
         APP_URL: 'http://example.com'
         # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
